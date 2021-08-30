@@ -14,8 +14,6 @@ initial_learning_rate = 0.0001
 
 
 def Training():
-    # 要確認
-
     config = tf.ConfigProto()
     config.gpu_options.allow_growth = True
     session = tf.Session(config=config)
